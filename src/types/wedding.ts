@@ -71,7 +71,7 @@ export interface WeddingConfig {
   event: {
     date: string; // YYYY-MM-DD
     time: string; // HH:mm
-    isoDateTime: string; // 2026-11-15T09:00:00+07:00
+    isoDateTime: string; // 2026-11-22T09:00:00+07:00
     lunarDate: string; // Ngày Âm lịch
     venueName: string;
     venueAddress: string;

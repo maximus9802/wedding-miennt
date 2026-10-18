@@ -71,7 +71,7 @@ export default function EventDetails() {
                 {event.time}
               </div>
               <div className="text-base font-serif font-medium text-[#2E241E]">
-                Chủ Nhật, ngày 15/11/2026
+                Chủ Nhật, ngày 22/11/2026
               </div>
               <div className="text-xs text-[#8C6D52] font-medium">
                 ({event.lunarDate})
@@ -156,7 +156,7 @@ export default function EventDetails() {
                 allowFullScreen={true}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Bản đồ vị trí Nhà văn hóa thôn 5"
+                title={`Bản đồ vị trí ${event.venueName}`}
                 className="w-full h-full"
               />
             </div>

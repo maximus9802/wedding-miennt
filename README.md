@@ -12,11 +12,11 @@ Trang web thiệp cưới online cao cấp, tối ưu hiển thị hoàn hảo t
    - Con dấu sáp dập nổi chữ lồng **P & M** (Xuân Phú & Nguyễn Miền).
    - Hiệu ứng mở nắp phong bì, bắn pháo hoa kim tuyến (confetti) và tự động bật nhạc nền lãng mạn.
 2. **Hero & Countdown Timer**:
-   - Đếm ngược từng giây đến **09:00 ngày 15/11/2026**.
+   - Đếm ngược từng giây đến **09:00 ngày 22/11/2026**.
    - Tích hợp nút **"Lưu vào Lịch Google"** (1 chạm thêm sự kiện vào điện thoại).
 3. **Thời gian & Địa điểm (Google Maps 1 chạm)**:
-   - Địa điểm: Nhà văn hóa thôn 5, Đông Am, Tam Cường, Vĩnh Bảo, Hải Phòng.
-   - Nút mở ứng dụng **Google Maps** dẫn đường trực tiếp: `https://maps.app.goo.gl/5645vSd99CY43oPZA`.
+   - Địa điểm: Quán bia Quyền Anh, Thượng Trung, Vĩnh Am, Hải Phòng.
+   - Nút mở ứng dụng **Google Maps** dẫn đường trực tiếp: `https://maps.app.goo.gl/jnmo3TRcsVkrSsbK6`.
    - Nút sao chép địa chỉ tiện lợi.
 4. **Lịch trình Lễ Cưới (Timeline)**:
    - Đón khách $\rightarrow$ Lễ Thành Hôn $\rightarrow$ Khai tiệc $\rightarrow$ Tiễn khách.
@@ -38,7 +38,7 @@ Trang web thiệp cưới online cao cấp, tối ưu hiển thị hoàn hảo t
 
 1. Mở terminal tại thư mục này:
    ```bash
-   cd /home/quyvx/Documents/Personal/weeding
+   cd /home/quy/Documents/Upgrade/wedding-miennt
    ```
 2. Chạy lệnh dev:
    ```bash

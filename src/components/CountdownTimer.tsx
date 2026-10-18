@@ -40,7 +40,7 @@ export default function CountdownTimer() {
     const title = encodeURIComponent('Đám cưới Xuân Phú & Nguyễn Miền');
     const details = encodeURIComponent('Lễ Thành Hôn & Tiệc Cưới Xuân Phú & Nguyễn Miền');
     const location = encodeURIComponent(`${weddingConfig.event.venueName}, ${weddingConfig.event.venueAddress}`);
-    const dates = '20261115T020000Z/20261115T050000Z';
+    const dates = '20261122T020000Z/20261122T050000Z';
     return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${dates}&details=${details}&location=${location}`;
   };
 

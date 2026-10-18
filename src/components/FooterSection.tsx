@@ -75,7 +75,7 @@ export default function FooterSection({ onOpenGiftBox, onOpenEnvelope }: FooterS
           className="text-[11px] text-[#E8DFD3]/60 space-y-1"
         >
           <p>Lễ Thành Hôn • Xuân Phú & Nguyễn Miền</p>
-          <p>15.11.2026 • Hải Phòng</p>
+          <p>22.11.2026 • Hải Phòng</p>
         </motion.div>
       </div>
     </footer>

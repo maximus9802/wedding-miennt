@@ -159,7 +159,7 @@ export default function EnvelopeModal({ guestInfo, isOpen, onOpen, onClose }: En
               )}
 
               <div className="text-xs text-[#2E241E] font-medium mt-1">
-                Vào lúc <span className="font-semibold text-[#634832]">09:00</span> • Ngày <span className="font-semibold text-[#634832]">15.11.2026</span>
+                Vào lúc <span className="font-semibold text-[#634832]">09:00</span> • Ngày <span className="font-semibold text-[#634832]">22.11.2026</span>
               </div>
 
               {/* Wax Seal Button (Interactive trigger) */}

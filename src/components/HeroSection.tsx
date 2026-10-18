@@ -71,7 +71,7 @@ export default function HeroSection({ guestInfo, onOpenEnvelopeModal }: HeroSect
           transition={{ duration: 0.7, delay: 0.55 }}
           className="text-xs sm:text-sm text-[#7A695E] uppercase tracking-widest font-medium"
         >
-          Chủ Nhật, ngày 15 tháng 11 năm 2026
+          Chủ Nhật, ngày 22 tháng 11 năm 2026
         </motion.p>
       </div>
 

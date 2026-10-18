@@ -11,7 +11,7 @@ export default function CalendarTable() {
   // Monday to Saturday before 1st Nov are 6 empty slots
   const prefixEmptyDays = 6;
   const totalDaysInNov = 30;
-  const weddingDay = 15; // 15th November 2026
+  const weddingDay = 22; // 22nd November 2026
 
   const days = Array.from({ length: totalDaysInNov }, (_, i) => i + 1);
 
