@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-serif), serif;
+  --font-sans: var(--font-sans), sans-serif;
+  --font-script: var(--font-script), cursive;
+  
+  --color-cream: #EFE8E0;
+  --color-cream-card: #FAF6F0;
+  --color-gold: #B89673;
+  --color-gold-dark: #8C6D52;
+  --color-gold-light: #E8DFD3;
+  --color-forest: #634832;
+  --color-forest-dark: #2E211A;
+  --color-forest-light: #DFD3C3;
+  --color-charcoal: #2E241E;
+  --color-muted: #7A695E;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+.font-script {
+  font-family: var(--font-script);
+}
+
+/* Gold/Latte gradient text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #8C6D52 0%, #C4A88F 50%, #8C6D52 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Wax seal shadow - Warm Mocha */
+.wax-seal-shadow {
+  box-shadow: 0 6px 20px rgba(74, 52, 37, 0.45), inset 0 2px 5px rgba(255, 255, 255, 0.35), inset 0 -3px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Card paper texture feel - Warm Taupe & Latte Paper */
+.paper-card {
+  background: #FAF6F0;
+  border: 1px solid rgba(184, 150, 115, 0.35);
+  box-shadow: 0 10px 30px -5px rgba(59, 42, 30, 0.08), 0 0 0 1px rgba(184, 150, 115, 0.12);
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 15s linear infinite;
+}
